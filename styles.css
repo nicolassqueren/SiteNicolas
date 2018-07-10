@@ -1,0 +1,204 @@
+/* Corrige la hauteur du menu en position fixed d'une hauteur de 3.5rem */
+html, body{
+  box-sizing: border-box;
+  width: 100%;
+  font-family: BwSurco-Regular;
+  background-color: #ADADAD;
+
+}
+
+#header {
+  background: url(img/apple-black-and-white-computer-160109.jpg)no-repeat center fixed;
+  /* bg center fixed = scroll dessus  */
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0% 85%);
+  /* creation polygone sur background point par point (haut G X et Y, haut D..., bas D..., Milieu..., bas G ) */
+  width: 100%;
+  height: 60vh;
+  max-height: 60vh;
+
+
+  
+  /* pas besoin de déterminer de hauteur, car la hauteur est définie par ce qui est dans le .header */  
+
+
+}
+@font-face
+{
+  font-family: BwSurco-Regular;
+
+  src: url(./src/fonts/BwSurco-Regular.eot);
+  src: url(./src/fonts/BwSurco-Regular.otf);
+  src: url(./src/fonts/BwSurco-Regular.woff);
+  src: url(./src/fonts/BwSurco-Regular.woff2);
+}
+@font-face
+{
+  font-family: gunnar-regular;
+
+  src: url(./src/fonts/gunnar-regular-webfont.eot);
+  src: url(./src/fonts/gunnar-regular-webfont.svg);
+  src: url(./src/fonts/gunnar-regular-webfont.ttf);
+  src: url(./src/fonts/gunnar-regular-webfont.woff);
+  src: url(./src/fonts/gunnar-regular-webfont.woff2);
+}
+h2
+{
+  font-family: BwSurco-Regular ;
+  text-shadow: 1px 1px 10px white;
+  
+}
+h1
+{
+  text-shadow: 1px 1px 10px black;
+  font-family: gunnar-regular;
+}
+.fa-linkedin, .fa-at, .fa-phone-square, .fa-github
+{
+  color: white;
+
+}
+.nav-link
+{
+  font-size: 1.2em;
+  transition: 0.5s;
+  /* joue sur le temps */
+}
+.nav-link:hover
+{
+  transform: scale(1.1);
+/* agrandissement avec animation */
+  text-shadow: 0 0 10px white;
+
+}
+.navbar-brand
+{
+  transition: 0.5s;
+}
+
+.navbar-brand:hover
+{
+  transform: scale(1.1);
+/* agrandissement avec animation */
+  text-shadow: 0 0 10px white;
+
+}
+#contact>a>i
+{
+transition: 0.8s;
+}
+#contact>a>i:hover
+{
+  transform: scale(1.3); 
+  
+}
+#logocesi
+{
+  width: 20%;
+  height: 20%;
+  transform: translate(-50% -50%)
+}
+#logocesi:hover
+{
+  transform: scale(1.2);
+}
+h5
+{
+  padding-bottom: 15px;
+  font-size: 1.6em;
+  text-shadow: 0 1px 0px #6D6363 ;
+  font-family: BwSurco-Regular;
+}
+.skillsbe
+{
+  font-family: gunnar-regular;
+  text-shadow: 0.5px 0px 0.5px;
+  font-size: 1.1em;
+}
+.progress-bar
+{
+  background-color: #6D6363;
+}
+.skillsfutur
+{
+  background-color: #63696D;
+}
+.skillsdo
+{
+  background-color: #33332E;
+}
+
+.list-group
+{
+  width:80%; 
+  margin: auto;
+}
+li
+{
+  list-style-type: none;
+}
+#carouselExampleControls
+{
+  border: solid 5px #0D3D54;
+  box-shadow:   0 15px 20px black; 
+  border-radius: 5%;
+  width: 450px ;
+  height: 320px;
+  
+
+
+}
+#accroche
+{
+  width: 70%;
+  text-align: center;
+}
+@media screen and (max-width: 992px){
+  #accroche{
+      width: 100%;
+      text-align: left;
+  
+  }
+}
+iframe
+{
+  border: solid 5px #63696D;
+  box-shadow:   0 15px 20px black; 
+  border-radius: 5%;
+  width: 450px;
+  height: 320px;
+ 
+  
+
+}
+.carousel-item img
+{
+  max-height: 430px;
+  height: 310px;
+  border-radius: 3%;
+  
+}
+h4
+{
+  font-size: 1.2em;
+  
+}
+#speciality {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+  50% {
+  border-color: transparent;
+  }
+  }
+ #Loisirs
+ {
+   font-size: 1em;
+   text-align: center;
+ }
+h6
+{
+  font-size: 1.2em;
+}
