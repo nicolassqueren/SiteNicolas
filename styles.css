@@ -165,11 +165,8 @@ iframe
   border: solid 5px #63696D;
   box-shadow:   0 15px 20px black; 
   border-radius: 5%;
-  width: 450px;
-  height: 320px;
- 
-  
-
+  width: 320px;
+  height: 250px;
 }
 .carousel-item img
 {
