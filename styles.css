@@ -139,11 +139,11 @@ li
 }
 #carouselExampleControls
 {
-  border: solid 5px #0D3D54;
+  border: solid 5px #63696D;
   box-shadow:   0 15px 20px black; 
   border-radius: 5%;
-  width: 450px ;
-  height: 320px;
+  width: 680px ;
+  max-height: 480px;
   
 
 
@@ -173,8 +173,8 @@ iframe
 }
 .carousel-item img
 {
-  max-height: 430px;
-  height: 310px;
+  max-height: 470px;
+  
   border-radius: 3%;
   
 }
@@ -201,4 +201,8 @@ h4
 h6
 {
   font-size: 1.2em;
+}
+.carousel-caption h5,.carousel-caption p,
+{
+  text-shadow:  15px 15px 20px black;
 }
