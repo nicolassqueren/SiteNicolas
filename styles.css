@@ -4,7 +4,7 @@ html, body{
   width: 100%;
   font-family: BwSurco-Regular;
   background-color: #ADADAD;
-
+  z-index: -1;
 }
 
 #header {
@@ -117,15 +117,15 @@ h5
 }
 .progress-bar
 {
-  background-color: #6D6363;
+  background-color: #00D173;
 }
 .skillsfutur
 {
-  background-color: #63696D;
+  background-color: #00b8d4;
 }
 .skillsdo
 {
-  background-color: #33332E;
+  background-color: #00bfa5;
 }
 
 .list-group
@@ -192,8 +192,8 @@ h4
   }
  #Loisirs
  {
-   font-size: 1em;
-   text-align: center;
+   font-size: 0.9em;
+  text-align: right;
  }
 h6
 {
@@ -202,4 +202,8 @@ h6
 .carousel-caption h5,.carousel-caption p,
 {
   text-shadow:  15px 15px 20px black;
+}
+#pickle
+{
+  color: #6D6363;
 }
