@@ -8,17 +8,19 @@
     <link rel="icon" href="img/DSC_0063-2-ConvertImage.ico">
 
     <title>Nicolas SQUEREN</title>
-
+    <script> src="typeWritter.js" </script>
     <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="js/bootstrap.js">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"  integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
     <!-- Custom styles -->
     <link href="styles.css" rel="stylesheet">
+     
   </head>
 
   <body>
-
+   
     <div class="container-fluid">
         <div class="row">
             <nav id="navbar" class=" img img-fluid navbar sticky-top navbar-expand-md w-100" style="background-color: #212121;" >
@@ -66,8 +68,10 @@
                         <!-- le titre prend un espace de 9 sur un medium display -->
                         <!-- par défault en en col-sm- il prendra 12 -->
                         <div id="title" class="lead col-lg-9 col-md-8 mx-auto my-5 text-center text-white py-4">
-                            <h1 class=" lead display-4 font-weight-bold">Nicolas SQUEREN</h1>
-                            <h3  class="font-weight-bold">Développeur WEB </h3>
+                           <h1 class=" lead display-4 font-weight-bold">Nicolas SQUEREN</h1>
+                            <h3 >Développeur WEB</h3> 
+                            
+                             <span id="speciality"></span>
                             <h4>Alternance BAC+2</h4>
                             <h4>NANTES</h4>
                         </div>
@@ -118,6 +122,7 @@
                     <div class="col-md-6 p-2">
                         <div class="  text-black  ">
                             <h6>En Autodidacte</h6> 
+                            
                             <p> 
                                 HTML5/CSS3, Bootstrap, JavaScript, Wordpress <br>
                                 Photoshop, Magix Vidéo <br>
@@ -376,7 +381,8 @@
     <script src="dist/js/jquery-3.3.1.min.js"></script>
     <script src="dist/js/popper.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
-    <script>
+    
+     <script>
       jQuery(document).ready(function() {
           jQuery('.js-scrollTo').on('click', function() { // Au clic sur un élément
               var page = jQuery(this).attr('href'); // Page cible
@@ -386,7 +392,7 @@
           });
       });
       </script>
-
-      <script> src="typeWritter.js" </script>
+    
+     
   </body>
 </html>

@@ -183,6 +183,8 @@ h4
 #speciality {
   border-right: .05em solid;
   animation: caret 1s steps(1) infinite;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
   }
   
   @keyframes caret {
