@@ -42,12 +42,7 @@ html, body{
   src: url(./src/fonts/gunnar-regular-webfont.woff);
   src: url(./src/fonts/gunnar-regular-webfont.woff2);
 }
-h2
-{
-  font-family: BwSurco-Regular ;
-  text-shadow: 1px 1px 10px white;
-  
-}
+
 h1
 {
   text-shadow: 1px 1px 10px black;
@@ -181,10 +176,12 @@ h4
   
 }
 #speciality {
-  border-right: .05em solid;
+  border-right: .04em solid;
   animation: caret 1s steps(1) infinite;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 0.9em;
+  font-family: BwSurco-Regular;
+  font-size: 1.6em;
+  text-shadow: 1px 1px 10px white;
+  margin: auto;
   }
   
   @keyframes caret {
