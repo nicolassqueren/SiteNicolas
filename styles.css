@@ -1,12 +1,15 @@
 /* Corrige la hauteur du menu en position fixed d'une hauteur de 3.5rem */
 html, body{
   box-sizing: border-box;
-  width: 100%;
+ 
   font-family: BwSurco-Regular;
   background-color: #ADADAD;
   z-index: -1;
 }
-
+body{
+  overflow-x:hidden;
+  width: 100%;
+}
 #header {
   background: url(img/apple-black-and-white-computer-160109.jpg)no-repeat center fixed;
   /* bg center fixed = scroll dessus  */
@@ -55,7 +58,7 @@ h1
 }
 .nav-link
 {
-  font-size: 1.2em;
+  font-size: 1.5vw;
   transition: 0.5s;
   /* joue sur le temps */
 }
