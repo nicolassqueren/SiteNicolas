@@ -212,9 +212,11 @@ h6
 {
   color: black;
   text-decoration: none;
+  margin-top: 3%;
 }
 .CVdownload:hover
 {
   color: antiquewhite;
   transform: scale(1.2);
+  
 }
