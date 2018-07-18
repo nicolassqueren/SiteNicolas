@@ -3,7 +3,7 @@ html, body{
   box-sizing: border-box;
  
   font-family: BwSurco-Regular;
-  background-color: #ADADAD;
+  background-image: url();
   z-index: -1;
 }
 body{
@@ -50,7 +50,14 @@ h1
 {
   text-shadow: 1px 1px 10px black;
   font-family: gunnar-regular;
+ 
 }
+h2
+{
+  text-shadow: 1px 1px 10px black;
+  font-size: 1.6em;
+}
+
 .fa-linkedin, .fa-at, .fa-phone-square, .fa-github
 {
   color: white;
