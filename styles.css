@@ -10,8 +10,9 @@ html, body{
 body{
   overflow-x:hidden;
   width: 100%; 
-  background-image: url(img/fond\ 4.jpg);
-  position: no-repeat absolute;
+  background: url(img/fond\ 5.jpg) ;
+  position: relative;
+  background-size: cover;
 }
 #header {
   background: url(img/apple-black-and-white-computer-160109.jpg)no-repeat center fixed;
@@ -102,8 +103,8 @@ transition: 0.8s;
 }
 #logocesi
 {
-  width: 20%;
-  height: 20%;
+  width: 120px;
+  height: 40px;
   transform: translate(-50% -50%)
 }
 #logocesi:hover
@@ -209,14 +210,20 @@ h4
 h6
 {
   font-size: 1.2em;
+  text-shadow: black;
 }
-.carousel-caption h5,.carousel-caption p,
+.carousel-caption
 {
-  text-shadow:  15px 15px 20px black;
+  text-shadow:  40px 40px 20px black;
 }
 #pickle
 {
-  color: #6D6363;
+  color:black;
+}
+#pickle:hover
+{
+  transform: scale(1.2);
+  color: #00D173;
 }
 .CVdownload
 {
