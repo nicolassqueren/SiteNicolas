@@ -186,6 +186,7 @@ iframe
 h4
 {
   font-size: 1.2em;
+  text-align: center;
   
 }
 #speciality {
@@ -236,4 +237,12 @@ h6
   color: antiquewhite;
   transform: scale(1.2);
   
+}
+#logomichel
+{
+  max-width: 30%;
+  max-height: 30%;
+  min-width: 300px;
+  max-width: 250px;
+
 }
