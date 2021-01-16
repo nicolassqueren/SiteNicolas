@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
 
 
-    var dataText = ["React", "Développeur WEB", "HTML5/CSS3", "BOOTSTRAP 4", "JavaScript"  ];
+    var dataText = ["Magento 2", "React", "Développeur WEB", "HTML5/CSS3", "BOOTSTRAP 4", "JavaScript"  ];
 
 
     // type one text in the typwriter
